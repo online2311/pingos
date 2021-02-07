@@ -1003,7 +1003,7 @@ ngx_rtmp_codec_reconstruct_meta(ngx_rtmp_session_t *s)
 
         { NGX_RTMP_AMF_STRING,
           ngx_string("Server"),
-          "PingOS (https://pingos.io)", 0 },
+          "MediaBox", 0 },
 
         { NGX_RTMP_AMF_NUMBER,
           ngx_string("width"),
