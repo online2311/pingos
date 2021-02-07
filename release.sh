@@ -247,7 +247,7 @@ then
 
         if [ ! -f $WWW_ROOT"/stat.xsl" ]
         then
-            cp ./resource/stat.xsl $WWW_ROOT"/stat.xsl"
+            cp ./resource/stat.xsl $WWW_ROOT"/mediabox.xsl"
         fi
 
         if [ ! -f $WWW_ROOT"/crossdomain.xml" ]
@@ -255,12 +255,6 @@ then
             cp ./resource/crossdomain.xml $WWW_ROOT"/crossdomain.xml"
         fi
 
-        if [ ! -d $WWW_ROOT"/h5player" ]
-        then
-            cd $WWW_ROOT
-            git clone https://github.com/im-pingo/h5player.git
-            cd $OPWD
-        fi
     fi
 
 fi
